@@ -46,6 +46,72 @@ R= La diferencia entre **http y https**, radica en *la seguridad de la transfere
 
 #### Palabras en Inglés: **Web, Secure, Data, Encrypted.**
 
+### Día 4 (**Linux Básico**)
+---
+
+#### 1. ¿Qué es **Linux**?
+R= **GNU/Linux es una familia de Sistemas Operativos tipo Unix de Código Abierto y Multiplataforma**, desarrollado originalmente por **Linus Torvalds en 1991** como un núcleo (kernel) para sistemas operativos tipo Unix. *GNU/Linux es gratuito, libre y puede ser utilizado, modificado y redistribuido por cualquier persona bajó la licencia de GPL de GNU*.
+
+#### 2. ¿Para qué se utiliza **Linux**?
+R= Se utiliza para una gran variedad de propósitos, como: **Servidores Web, Base de Datos, Desarrollo de Software, Ciberseguridad, Sistemas Embebidos(Routers Inalámbricos, Camaras de Seguridad, Altavoces Inteligentes, Televisores Inteligentes, Relojes Inteligentes y Dispositivos Médicos, como Electrocardiograma**) *debido a su versatilidad, estabilidad y seguridad. Linux es el Sistema Operativo Subyacente de Android.*
+
+#### Palabras en Inglés: **Linux, Command, File**
+
+#### Día 5 (**Logs**)
+---
+
+#### 1. ¿Qué son los **Logs**?
+R= **Los Logs, también conocidos como archivos de registro o bitácoras, son registros secuenciales y cronológicos de eventos, acciones o procesos que ocurren en un sistema informático, aplicación, servidor o dispositivo.** *Estos registros contienen información detallada sobre lo que sucede durante la operación de un sistema, incluyendo fechas, horas, tipos de eventos y mensajes descriptivos.*
+
+#### 2. ¿Para qué sirven los **Logs**?
+R= **Su principal función es proporcionar una evidencia detallada del comportamiento del sistema, lo que permite a los profesionales de TI comprender cómo se está ejecutando el software y detectar cualquier anomalía.** *Sus usos más importantes son el diagnóstico de problemas, ya que permiten identificar errores, fallos o transacciones fallidas, facilitando la resolución rápida de incidentes.*
+
+#### Ejemplos de **Logs**:
+R= **Un Log es un archivo que registra eventos, actividades o mensajes generados por un sistema, aplicación o servicio, permitiendo su análisis para diagnóstico, seguridad o auditoria.**
+
+```
+Log de Sistema En Linux: Un archivo común es /var/log/auth.log
+
+Log de Servidor Web(Apache): Un Log de acceso Apache es 84.245.59.290 – – [01/Oct/2018:08:39:04 +0200]
+"GET /module/CLNEWMSG/css/bubble.css?1251290622 HTTP/1.1" 304 136 "https://www.axarnet.es/alojamiento-web-linux/"
+"Mozilla/5.0 (Windows NT 6.1; rv:24.0) Gecko/20100101 Firefox/24.0"
+
+Log de Aplicación(Spring Boot): Un Log común es 2022-02-17 21:28:55.018 INFO 22308 --- [ restartedMain]
+org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.30]
+
+Log de flujo en AWS VPC: Un Log de flujo que muestra tráfico aceptado es 2 123456789010 eni-1235b8ca123456789
+172.31.16.139 172.31.16.21 20641 22 6 20 4249 1418530010 1418530070 ACCEPT OK
+
+log de aplicación Node.js(Winston): Un Log en formato JSON es {"level":"info","message":"El cliente José Saavedra
+compró un estante de ébano"}
+``` 
+
+#### Palabras en Inglés: **Log, Event, Activity.**
+
+### Día 6 (**Phishing**)
+---
+
+#### 1. ¿Qué es **Phishing**?
+R= **El Phishing es una técnica de Ingeniería Social utilizada por Ciberdelincuentes para engañar a las victímas haciéndose pasar por entidades de confianza, como bancos, redes sociales, empresas o instituciones públicas, con el fin de robar información personal, credenciales de acceso, datos bancarios o instalar malware en sus dispositivos**. *También ocurre a través de Mensajes de Textos(Mishing), llamadas telefónicas(Vishing) o publicaciones en redes sociales. Aunque también existe el Phishing dirigido(Spearphishing) se enfoca en una persona o pequeña organización especifíca.* Y el **Whaling** es una variante del *Spearphishing* que se dirige a ejecutivos de alto nivel.
+
+#### 2. ¿Cómo se ve el **Phishing**?
+R= **El Phishing se presenta como mensajes fraudulentos que imitan a fuentes confiables, como bancos, compañías de tarjetas de crédito o servicios en línea.** *Recibir un mensaje que informa de una compra sospechosa con la tarjeta de crédito, seguido de una solicitud para llamar a un número falso que supuestamente pertenece al banco.*
+
+#### 3. ¿Por qué funciona el **Phishing**?
+R= **El Phishing funciona principalmente porque explota la psicología humana y las emociones, como el miedo, la urgencia o la vanidad, para manipular a las victímas y hacer que realicen acciones que no deberían realizar.**
+
+#### Palabras en Inglés: **Email, Fake, Password.**
+
+## Semana 2
+
+### Día 1 (**Pensar como Analista SOC**)
+
+* Entrar a **Logs**: `cd var/log/` después `ls`, y al final `sudo less auth.log` 
+* El comando `"less"` es para **lectura segura de Logs, sin modificar y sin cargar todo**.
+* El comando `"pwd"`, es para ver en que **ruta estas**
+* El comando `"ls"`, es para ver **la lista** y `"ls -i"` es para ver **la lista detallada.**
+
+
 
 
 
